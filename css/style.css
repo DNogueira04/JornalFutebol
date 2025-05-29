@@ -1,0 +1,276 @@
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+    text-align: center;
+    }
+
+.formas {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px auto;
+    }
+
+
+.Brasil {
+background-image: linear-gradient(blue, green, yellow);
+
+}
+
+.Taça {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Pagina index */
+
+
+h1 {
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 70px;
+margin-block-end: 0.1em;
+
+}
+
+.cor {
+
+    background-color: black;
+}
+
+p {
+font-size: 35px;
+padding: 15px;
+max-width: 1500px;
+color: white;
+}
+
+.fundo {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Pagina Corinthians */
+
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #006eff;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+    
+}
+.back-button::before {
+    content: '←';
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+/* botao voltar */
+
+
+
+.tabela {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.titulo-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+h2 {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th {
+    background-color: #fff;
+    color: #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.titulo-img {
+    width: 60px;
+    height: 60px;
+}
+
+/* tabela */
+
+
+.container {
+  display:flex; 
+  align-items:flex-start; 
+}
+
+
+
+.pal {
+    background-color: green;
+}
+
+.fundoP {
+    background-color: rgb(0, 131, 28);
+}
+
+.tituloP-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(31, 173, 2);
+    overflow: hidden;
+}
+
+/* Pagina Palmeiras */
+
+.fundoS {
+background-image: linear-gradient(red, black);
+}
+
+.sao {
+    background-image: linear-gradient(red, black);
+}
+
+.tituloS-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(207, 7, 7);
+    overflow: hidden;
+}
+
+/* pagina Sao Paulo */
+
+.fundoF {
+    background-image: linear-gradient(red, black);
+}
+
+.fla {
+    background-image: linear-gradient(red, black);
+}
+
+.tituloF-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(95, 0, 0);
+    overflow: hidden;
+}
+
+/* pagina flamengo */
+
+
+
+.fundoB {
+    background-color: rgb(0, 0, 0);
+}
+
+.Bot {
+    background-color: black;
+}
+
+.tituloB-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+/* pagina Botafogo */
+
+.fundoV {
+    background-color: rgb(0, 0, 0);
+}
+
+.vas {
+    background-color: black;
+}
+
+.tituloV-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+/*pagina do Vasco */
+
+.fundoC {
+    background-color: rgb(54, 98, 219);
+}
+
+.Cru {
+    background-color: rgb(54, 98, 219);
+}
+
+.tituloC-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+/* pagina do cruzeiro */
+
+.fundoG {
+    background-image: linear-gradient(rgb(100, 166, 252), black);
+}
+
+.gre {
+    background-image: linear-gradient(rgb(100, 166, 252), black);
+}
+
+.tituloG-container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(46, 76, 133);
+    overflow: hidden;
+}
+
+/* pagina gremio */
